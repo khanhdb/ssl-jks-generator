@@ -1,0 +1,49 @@
+{
+  "name": "ssl-jks-generator",
+  "description": "generate Java keystore *.jks from ssl certificate",
+  "version": "1.0.1",
+  "author": "Bao Khanh Dinh @khanhdb",
+  "bin": {
+    "ssl-jks-generator": "./bin/run"
+  },
+  "bugs": "https://github.com/khanhdb/generate-ssl-jks/issues",
+  "dependencies": {
+    "@oclif/command": "^1",
+    "@oclif/config": "^1",
+    "@oclif/plugin-help": "^3",
+    "cli-ux": "^5.6.3",
+    "tslib": "^1"
+  },
+  "devDependencies": {
+    "@oclif/dev-cli": "^1",
+    "@types/node": "^10",
+    "ts-node": "^8",
+    "typescript": "^3.3"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "files": [
+    "/bin",
+    "/lib"
+  ],
+  "homepage": "https://github.com/khanhdb/generate-ssl-jks",
+  "keywords": [
+    "oclif"
+  ],
+  "license": "MIT",
+  "main": "lib/index.js",
+  "oclif": {
+    "bin": "ssl2jks",
+    "macos" : {
+       "identifier": "com.kurro.ssl2jks.cli"
+    }
+  },
+  "repository": "khanhdb/ssl-jks-generator",
+  "scripts": {
+    "prepack": "rm -rf lib && tsc -b && oclif-dev readme",
+    "test": "echo NO TESTS",
+    "version": "oclif-dev readme && git add README.md"
+  },
+  "types": "li  b/index.d.ts"
+}
