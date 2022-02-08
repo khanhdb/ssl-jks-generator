@@ -1,7 +1,7 @@
 {
   "name": "ssl-jks-generator",
   "description": "generate Java keystore *.jks from ssl certificate",
-  "version": "1.0.1",
+  "version": "1.2.0",
   "author": "Bao Khanh Dinh @khanhdb",
   "bin": {
     "ssl-jks-generator": "./bin/run"

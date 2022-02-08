@@ -19,7 +19,7 @@ $ npm install -g ssl-jks-generator
 $ ssl2jks COMMAND
 running command...
 $ ssl2jks (-v|--version|version)
-ssl-jks-generator/1.0.1 darwin-x64 node-v14.17.3
+ssl-jks-generator/1.0.1 darwin-x64 node-v14.18.2
 $ ssl2jks --help [COMMAND]
 USAGE
   $ ssl2jks COMMAND
