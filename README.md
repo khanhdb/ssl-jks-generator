@@ -15,11 +15,11 @@ generate Java keystore *.jks from ssl certificate
 # Usage
 <!-- usage -->
 ```sh-session
-$ npm install -g ssl-jks-generator
+$ npm install -g ssl-jks-generator@1.2.0
 $ ssl2jks COMMAND
 running command...
 $ ssl2jks (-v|--version|version)
-ssl-jks-generator/1.0.1 darwin-x64 node-v14.18.2
+ssl-jks-generator/1.2.0 darwin-x64 node-v14.18.2
 $ ssl2jks --help [COMMAND]
 USAGE
   $ ssl2jks COMMAND
