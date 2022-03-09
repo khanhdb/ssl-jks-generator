@@ -1,12 +1,12 @@
 {
   "name": "ssl-jks-generator",
   "description": "generate Java keystore *.jks from ssl certificate",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "author": "Bao Khanh Dinh @khanhdb",
   "bin": {
-    "ssl-jks-generator": "./bin/run"
+    "ssl2jks": "./bin/run"
   },
-  "bugs": "https://github.com/khanhdb/generate-ssl-jks/issues",
+  "bugs": "https://github.com/khanhdb/ssl-jks-generator/issues",
   "dependencies": {
     "@oclif/command": "^1",
     "@oclif/config": "^1",
