@@ -35,8 +35,8 @@
   "main": "lib/index.js",
   "oclif": {
     "bin": "ssl2jks",
-    "macos" : {
-       "identifier": "com.kurro.ssl2jks.cli"
+    "macos": {
+      "identifier": "com.kurro.ssl2jks.cli"
     }
   },
   "repository": "khanhdb/ssl-jks-generator",
